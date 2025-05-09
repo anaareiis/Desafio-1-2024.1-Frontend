@@ -200,7 +200,7 @@ body * {
     border: 1px solid var(--stroke-color);
     border-radius: 8px;
     padding: 6px 10px;
-    width: 280px;
+    width: 300px;
     margin: 23px;
     text-align:center;
     font-size: 16px;
@@ -227,8 +227,8 @@ body * {
     border: 1px var(--stroke-color);
     border-radius: 8px;
     overflow: hidden;
-    margin-left: 100px;
-    margin-right: 25px;
+    margin-left: 120px;
+    margin-right: 10px;
     margin-bottom: 18px;
 }
 
