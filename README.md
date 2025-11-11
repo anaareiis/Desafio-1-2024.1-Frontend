@@ -1,7 +1,7 @@
 
 # 🌐 Desafio 1 — Frontend 2024.1
 
-Projeto individual desenvolvido como parte do **Desafio 1 de Frontend** da disciplina de **Técnicas de Programação II**.  
+Projeto individual desenvolvido como parte do **Desafio 1 de Frontend** do processo treinee da **EngNet**.  
 O objetivo foi aplicar conceitos fundamentais de HTML, CSS e JavaScript para criar uma página interativa, responsiva e visualmente agradável.
 
 ---
@@ -17,7 +17,7 @@ Ou visualize o design abaixo:
 
 ## 🧩 Estrutura do Projeto
 
-
+```bash
 .
 ├── src/ # Código-fonte principal
 │ ├── index.html
@@ -30,7 +30,7 @@ Ou visualize o design abaixo:
 │ ├── DESAFIO.md
 │ └── preview.png
 └── README.md
-
+```
 
 ---
 
@@ -75,32 +75,4 @@ Desenvolvido individualmente como parte do Desafio 1 de Frontend — 2024.1.
 📜 Licença
 
 Distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
-
-
----
-
-## 🌟 Dica Extra: GitHub Pages
-
-Você pode **publicar seu projeto online** direto do GitHub!  
-1. Vá em **Settings → Pages**  
-2. Em “Source”, selecione `main` e a pasta `/src`  
-3. Clique em **Save**  
-👉 O GitHub vai gerar um link do tipo:
-
-
-https://anaareiis.github.io/Desafio-1-2024.1-Frontend/
-
-
-Depois, adicione esse link no README (na parte de “Demonstração”).
-
----
-
-## 💬 Commit final sugerido
-
-Depois de reorganizar tudo:
-
-```bash
-git add .
-git commit -m "Reorganização completa do projeto e atualização do README para portfólio"
-git push origin main
 
