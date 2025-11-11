@@ -21,7 +21,7 @@ Você deve realizar um [fork](https://docs.github.com/en/get-started/quickstart/
 - A utilização de javascript é permitida, mas é opcional.
 - O código do projeto deve ser organizado, indentado e legível. Tão importante quanto um programa funcional é um código fonte fácil de modificar e entender.
 - Um exemplo de curriculo:
-    [curriculo](./assets/curriculo.pdf)
+    [curriculo](../assets/curriculo.pdf)
 
 ## Desafio extra
 
@@ -44,4 +44,3 @@ Você deve realizar um [fork](https://docs.github.com/en/get-started/quickstart/
 - A entrega do desafio deve ser realizada através de uma Release no GitHub.
   - Crie a release no seu repositório pessoal e envie o zip pelo google classroom.
 - O candidato não deve excluir o repositório e nem a release após a entrega, pois a utilização do GitHub será avaliada.
-

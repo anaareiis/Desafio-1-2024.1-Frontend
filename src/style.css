@@ -6,34 +6,27 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg);
+    --bg-url: url(../assets/bg-mobile.jpg);
     --stroke-color: rgba(255, 255, 255, 0.5);
     --surface-color: rgba(255, 255, 255, 0.1);
     --surface-color-hover: rgba(255, 255, 255, 0.05);
     --social-links-hover: rgba(255, 255, 255, 0.2);
-    --switch-bg-url: url(./assets/moon-stars.svg);
+    --switch-bg-url: url(../assets/moon-stars.svg);
     --title-color: rgb(191, 122, 255);
 }
 
 .light {
     --text-color: black;
-    --bg-url: url(./assets/bg-mobile-light.jpg);
+    --bg-url: url(../assets/bg-mobile-light.jpg);
     --stroke-color: rgba(0, 0, 0, 0.5);
     --surface-color: rgba(0, 0, 0, 0.05);
     --surface-color-hover: rgba(0, 0, 0, 0.02);
     --social-links-hover: rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg);
+    --switch-bg-url: url(../assets/sun.svg);
     --title-color: rgb(43, 0, 84);
 }   
 
 body {
-    /*
-    background-image: url(./assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    */
-    /* shothand: color image repeat position/size */
     background: var(--bg-url) no-repeat top center/cover;
     height: 130vh;
 }
@@ -46,9 +39,7 @@ body * {
 #container {
     width: 100%;
     max-width: 588px;
-    /*height: 712px;*/ /* Não utilizaremos pois não é fixo*/
-    /* margin: auto; aplica aos lados mas não em cima e embaixo */
-    margin: 56px auto 0px; /*top rightandleft bottom*/ 
+    margin: 56px auto 0px;
     padding: 0 24px;
 }
 
@@ -81,7 +72,7 @@ body * {
     margin-left: 250px;
     margin-bottom: 50px;
     font-weight: 500;
-    font-size: 13px; /*já é 16px por padrão*/
+    font-size: 13px;
     font-weight: 24px;
 }
 
@@ -273,11 +264,11 @@ footer {
 /*media queries*/
 @media (min-width: 700px) {
     :root {
-        --bg-url: url(./assets/bg-desktop.jpg);
+        --bg-url: url(../assets/bg-desktop.jpg);
     }
 
     .light {
-        --bg-url: url(./assets/bg-desktop-light.jpg);
+        --bg-url: url(../assets/bg-desktop-light.jpg);
     }
 }
 

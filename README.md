@@ -1,29 +1,106 @@
-# Projeto Final
 
-Bem-vindo ao repositório do *Projeto Final*!
+# 🌐 Desafio 1 — Frontend 2024.1
 
-Este projeto foi desenvolvido com dedicação para demonstrar as habilidades adquiridas ao longo do desafio. A seguir, você encontrará informações sobre o propósito, tecnologias utilizadas e como visualizar o projeto.
-
----
-
-## Conheça o projeto finalizado:
-
-*[Clique aqui para acessar a versão final do projeto](https://anaareiis.github.io/Desafio-1-2024.1-Frontend/)*
+Projeto individual desenvolvido como parte do **Desafio 1 de Frontend** da disciplina de **Técnicas de Programação II**.  
+O objetivo foi aplicar conceitos fundamentais de HTML, CSS e JavaScript para criar uma página interativa, responsiva e visualmente agradável.
 
 ---
 
-## Tecnologias utilizadas
+## ✨ Demonstração
 
-- HTML
-- CSS
-- JavaScript
+👉 [Acesse o projeto online](https://anaareiis.github.io/Desafio-1-2024.1-Frontend/)  
+
+Ou visualize o design abaixo:  
+![Preview do site](docs/preview.png)
 
 ---
 
-## Funcionalidades
+## 🧩 Estrutura do Projeto
 
-- ✅ *Botões clicáveis* com feedback visual e responsividade  
-- ✅ *Modo claro e escuro*, alternável com um clique  
-- ✅ *Links funcionais* para navegação entre páginas e recursos externos  
-- ✅ *Animações suaves* para uma experiência visual agradável  
+
+.
+├── src/ # Código-fonte principal
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+├── assets/ # Imagens e ícones
+│ ├── logo.png
+│ └── ...
+├── docs/ # Documentação e prints
+│ ├── DESAFIO.md
+│ └── preview.png
+└── README.md
+
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- **HTML5** → estrutura semântica da página  
+- **CSS3** → layout responsivo e animações suaves  
+- **JavaScript (ES6)** → interatividade e modo escuro  
+
+---
+
+## 🚀 Funcionalidades
+
+✅ Botões com feedback visual  
+✅ Modo claro/escuro com um clique  
+✅ Layout responsivo para mobile e desktop  
+✅ Links e navegação funcionais  
+✅ Animações leves para melhor UX  
+
+---
+
+## 📦 Como Executar
+
+1. Clone o repositório:
+	```bash
+	git clone https://github.com/anaareiis/Desafio-1-2024.1-Frontend.git
+	cd Desafio-1-2024.1-Frontend
+
+
+Abra o arquivo:
+
+src/index.html
+
+
+Execute no navegador ou use a extensão Live Server do VS Code.
+
+👩‍💻 Autora
+
+Ana Reis
+Desenvolvido individualmente como parte do Desafio 1 de Frontend — 2024.1.
+
+📜 Licença
+
+Distribuído sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
+
+
+---
+
+## 🌟 Dica Extra: GitHub Pages
+
+Você pode **publicar seu projeto online** direto do GitHub!  
+1. Vá em **Settings → Pages**  
+2. Em “Source”, selecione `main` e a pasta `/src`  
+3. Clique em **Save**  
+👉 O GitHub vai gerar um link do tipo:
+
+
+https://anaareiis.github.io/Desafio-1-2024.1-Frontend/
+
+
+Depois, adicione esse link no README (na parte de “Demonstração”).
+
+---
+
+## 💬 Commit final sugerido
+
+Depois de reorganizar tudo:
+
+```bash
+git add .
+git commit -m "Reorganização completa do projeto e atualização do README para portfólio"
+git push origin main
 
